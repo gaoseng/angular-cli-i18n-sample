@@ -8,7 +8,8 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "extract-i18n": "cd src && ng-xi18n"
   },
   "private": true,
   "dependencies": {
@@ -20,8 +21,12 @@
     "@angular/http": "^5.2.0",
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
+    "@angular/platform-server": "^5.2.10",
     "@angular/router": "^5.2.0",
+    "@ngx-translate/core": "^10.0.1",
+    "@ngx-translate/http-loader": "^3.0.1",
     "core-js": "^2.4.1",
+    "ng2-translate": "^5.0.0",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
